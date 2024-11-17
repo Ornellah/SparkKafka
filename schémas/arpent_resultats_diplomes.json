@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "ArpentDiplome",
+    "type": "array",
+    "required": ["examenId", "filiereId", "filiere", "option"],
+    "properties": {
+        "examenId":{
+            "description": "ID examen",
+            "type": "string"
+        },
+        "filiereId":{
+            "description": "ID filière",
+            "type": "string"
+        },
+        "filiere":{
+            "description": "Type de diplôme",
+            "type": "string"
+        },
+        "option":{
+            "description": "Option du diplôme",
+            "type": "string"
+        }
+    }
+}
