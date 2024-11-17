@@ -1,0 +1,46 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "ArpentCalendrier",
+    "type": "array",
+    "required": ["sessionId","examen","filiereId","filiere","etablissement","dateDelib1"],
+    "properties": {
+        "examenId":{
+            "description": "ID examen",
+            "type": "string"
+        },
+        "etablissementId":{
+            "description": "ID établissement",
+            "type": "string"
+        },
+        "sessionId":{
+            "description": "ID session examen",
+            "type": "string"
+        },
+        "examen":{
+            "description": "Libellé examen",
+            "type": "string"
+        },
+        "filiereId":{
+            "description": "ID filière",
+            "type": "string"
+        },
+        "filiere":{
+            "description": "Libellé filière",
+            "type": "string"
+        },
+        "etablissement":{
+            "description": "Libellé établissement",
+            "type": "string"
+        },
+        "dateDelib1":{
+            "description": "Date de délibération 1",
+            "type": "string",
+            "format": "date"
+        },
+        "dateDelib2":{
+            "description": "Date de délibération 2",
+            "type": "string",
+            "format": "date"
+        }
+    }
+}

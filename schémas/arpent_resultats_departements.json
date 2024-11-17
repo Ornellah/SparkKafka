@@ -1,0 +1,36 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "ArpentDepartement",
+    "type": "array",
+    "required": [
+      "libelle",
+      "regionId",
+      "autoriteAcademiqueId"
+    ],
+    "properties": {
+      "id": {
+        "description": "ID département",
+        "type": "string"
+      },
+      "libelle": {
+        "description": "Libellé département",
+        "type": "string"
+      },
+      "regionId": {
+        "description": "ID region",
+        "type": "string"
+      },
+      "region": {
+        "description": "Libellé région",
+        "type": "string"
+      },
+      "autoriteAcademiqueId": {
+        "description": "ID autorité académique",
+        "type": "string"
+      },
+      "autoriteAcademique": {
+        "description": "Libellé autorité académique",
+        "type": "string"
+      }
+    }
+  }

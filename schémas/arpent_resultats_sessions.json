@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "ArpentSession",
+    "type": "array",
+    "required": [
+      "id",
+      "libelle"
+    ],
+    "properties": {
+      "id": {
+        "description": "ID session",
+        "type": "string"
+      },
+      "libelle": {
+        "description": "Libellé session",
+        "type": "string"
+      }
+    }
+  }

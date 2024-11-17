@@ -1,0 +1,53 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "ArpentAutoriteAcademique",
+    "type": "array",
+    "required": [
+      "libelle"
+    ],
+    "properties": {
+      "id": {
+        "description": "ID autorité académique",
+        "type": "string"
+      },
+      "libelle": {
+        "description": "Libellé autorité académique",
+        "type": "string"
+      },
+      "adresse": {
+        "description": "Adresse autorité académique",
+        "type": "string"
+      },
+      "codePostal": {
+        "description": "Code postal autorité académique",
+        "type": "string"
+      },
+      "bp": {
+        "description": "Boite postal autorité académique",
+        "type": "string"
+      },
+      "commune": {
+        "description": "Commune autorité académique",
+        "type": "string"
+      },
+      "telephone": {
+        "description": "Téléphone autorité académique",
+        "type": "string"
+      },
+      "email": {
+        "description": "Mail autorité académique",
+        "type": "string"
+      },
+      "fax": {
+        "description": "Fax autorité académique",
+        "type": "string"
+      },
+      "departements": {
+        "description": "Départements concernés par l'autorité académique",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
